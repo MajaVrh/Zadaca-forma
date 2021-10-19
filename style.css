@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url("slika.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  color: aliceblue;
+}
+
+input {
+  padding: 0.4rem;
+  border: 2px solid black;
+}
+
+textarea {
+  padding: 0.4rem;
+  border: 2px solid black;
+}
+
+button {
+  padding: 0.4rem;
+  border: 2px solid black;
+  opacity: 1;
+
+}
+
+
+button:hover{
+  opacity:0.5;
+}
+.form {
+  background-color: rgba(0, 5, 10, 0.664);
+  padding: 2rem;
+
+  margin-top: 5rem;
+}
